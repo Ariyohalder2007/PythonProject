@@ -15,7 +15,9 @@ print(f"""
 <style>{glitch.read()}</style>
 {nav.read()}
 
+
 <h1 class='center '>Welcome {name} To IIT Kolkata </h1>
+<script src="https://kit.fontawesome.com/2f47edd958.js" crossorigin="anonymous"></script>
 """)
 glitch.close()
 style.close()

@@ -66,26 +66,34 @@ form input{
 	list-style: none;
 	/* background-color: red; */
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	height: 49px;
 
 }
-.nav li a{
+.nav-bar{
+	display: flex;
+	list-style: none;
+	
+	align-items: center;
+	justify-content: center;
+	height: 49px;
+}
+.nav-bar li a{
 	margin: 5px;
 	padding: 10px;
 	text-decoration: none;
 	color: black;
 	font-size: 1.3rem;
 }
-.nav li a:hover{
+.nav-bar li a:hover{
 	
 	color: white;
 	background-color: black;
 	border-radius: 30px;
 	
 }
-.nav li{
+.nav-bar li{
 	margin: 5px;
 	padding: 5px;
-}
+}-bar
 

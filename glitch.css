@@ -4,11 +4,7 @@ h1 {
     text-align: center; 
     color: black; 
     /* font-size: 8em;  */
-    transition: 0.5s; 
-} 
-
-h1:hover { 
-    /* color: white; */
+    /* transition: 0.5s;  */
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 
                  0 3px 0 #ccc, 0 4px 0 #ccc, 
                  0 5px 0 #ccc, 0 6px 0 #ccc, 
