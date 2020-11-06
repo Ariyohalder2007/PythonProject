@@ -9,6 +9,18 @@
 h1{
 	text-align: center;
 	margin: 5px;
+	font-size: 3rem;
+    text-align: center; 
+    color: black; 
+    /* font-size: 8em;  */
+    /* transition: 0.5s;  */
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 
+                 0 3px 0 #ccc, 0 4px 0 #ccc, 
+                 0 5px 0 #ccc, 0 6px 0 #ccc, 
+                 0 7px 0 #ccc, 0 8px 0 #ccc, 
+                 0 9px 0 #ccc, 0 10px 0 #ccc, 
+                 0 11px 0 #ccc, 0 12px 0 #ccc, 
+                 0 20px 30px rgba(0, 0, 0, 0.5); 
 }
 .container{
 	margin-top: 20px;
@@ -95,5 +107,5 @@ form input{
 .nav-bar li{
 	margin: 5px;
 	padding: 5px;
-}-bar
+}
 

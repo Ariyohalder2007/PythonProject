@@ -16,7 +16,7 @@ try:
     name=data.getvalue('name')
     if result!=None:
         print(f"""<link rel="stylesheet" type="text/css" href="style.css">
-        <h1 class='center'>You are successfully LoggedIn <a href='main.py/?name={name}'> Click Here</a></h1>""")
+        <h1 class='center'>You are successfully LoggedIn <a style='text-decoration:none;' href='main.py/?name={name}'> Click Here</a></h1>""")
     else:
         print("""<link rel="stylesheet" type="text/css" href="style.css">
         <h1 class='center' style='color:red;'>Wrong Details!!!!!</h1>""")

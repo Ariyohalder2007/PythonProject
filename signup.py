@@ -20,7 +20,7 @@ try:
         db.commit()
         print("""
         <link rel="stylesheet" type="text/css" href="style.css">
-        <h1 class='center'>You are successfully Registered Up <a href='main.py'> Click Here</a></h1>
+        <h1 class='center'>You are successfully Registered Up <a style='text-decoration:none;' href='main.py'> Click Here</a></h1>
         """)
     else: 
         print("""<link rel="stylesheet" type="text/css" href="style.css">
