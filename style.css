@@ -61,3 +61,31 @@ form input{
 	text-align: center;
 	margin: 10px
 }
+.nav{
+	display: flex;
+	list-style: none;
+	/* background-color: red; */
+	align-items: center;
+	justify-content: center;
+	height: 49px;
+
+}
+.nav li a{
+	margin: 5px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+}
+.nav li a:hover{
+	
+	color: white;
+	background-color: black;
+	border-radius: 30px;
+	
+}
+.nav li{
+	margin: 5px;
+	padding: 5px;
+}
+

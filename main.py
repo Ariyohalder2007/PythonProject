@@ -2,13 +2,21 @@
 print("Content-type:text/html\r\n\r\n")
 import cgi
 import mysql.connector
-head=open("head.txt", 'r')
-end=open("end.txt", 'r')
-print(head.read())
-#code here
+data=cgi.FieldStorage()
+name=data.getvalue('name')
 
+style=open('style.css', 'r')
+glitch=open('glitch.css', 'r')
+nav=open('nav.html', 'r')
+if name==None:
+    name=' '
+print(f"""
+<style>{style.read()}</style>
+<style>{glitch.read()}</style>
+{nav.read()}
 
-
-print(end.read())
-head.close()
-end.close()
+<h1 class='center '>Welcome {name} To IIT Kolkata </h1>
+""")
+glitch.close()
+style.close()
+nav.close()
