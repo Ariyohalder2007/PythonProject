@@ -152,10 +152,22 @@ form input{
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {}
+  
   table tr td{
 	  text-align: center;
 	  padding: 5px;
   }
+ 
 
+  textarea{
+	margin: 5px 0px;
+    height: 136px;
+    width: 343px;
+	padding: 5px;
+	font-size: 1.2rem;
+	border-radius: 10px;
+	outline: none;
+	border: 2.5px solid black;
+	background: none;
+	width: 25vw;
+  }
