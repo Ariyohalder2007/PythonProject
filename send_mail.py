@@ -33,7 +33,7 @@ try:
     {style.read()}
     </style>
     {nav.read()}
-    <h2 style="margin-top:10px;" class='center'> Sent Successfully Thanks For Contact We will Be In Touch With You Shortly. You Can Now Go Back to DashBoard</h2>
+    <h2 style="margin-top:10px; color:green;" class='center'> Sent Successfully Thanks For Contacting. We will Be In Touch With You Shortly. You Can Now Go Back to DashBoard</h2>
     <script src="https://kit.fontawesome.com/2f47edd958.js" crossorigin="anonymous"></script>
     """)
 except Exception as e:

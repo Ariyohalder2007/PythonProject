@@ -14,7 +14,7 @@ db.commit()
 print(f"""
 <h1> Welcome {result[0]}</h1>
 <link rel="stylesheet" href="/college/style.css">
-<form>
+<form method="post" action="/college/update.py?roll={roll}">
 <input type="emai" name="email" value="{result[1]}" placeholder="Your email here">
 <input type="name" name="name"value="{result[0]}"placeholder="Your Name here">
 <input type="text" name="stream" value="{result[2]}" placeholder="Your stream here">
