@@ -10,7 +10,7 @@ name=data.getvalue("name")
 roll=int(data.getvalue("roll"))
 stream=data.getvalue("stream")
 email=data.getvalue("email")
-password=data.getvalue("passwword")
+password=data.getvalue("password")
 sql="update students set name='%s',email='%s',password='%s',stream='%s' where roll=%d"%(name,email,password,stream,roll)
 #delete from student where roll=%d and email='%s'
 cursor.execute(sql)

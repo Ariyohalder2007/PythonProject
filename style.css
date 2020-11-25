@@ -155,7 +155,10 @@ form input{
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
-  
+  table{
+	  
+	  margin: auto;
+  }
   table tr td{
 	  text-align: center;
 	  padding: 5px;
@@ -198,4 +201,5 @@ form input{
 	  text-decoration: none;
 
   }
+ 
  
